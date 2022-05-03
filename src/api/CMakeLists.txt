@@ -2,10 +2,10 @@ cmake_minimum_required(VERSION 3.10)
 cmake_policy(SET CMP0074 NEW)
 
 # SET VARIABLES
-set(CMAKE_CXX_COMPILER /usr/bin/g++)
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
-set(CMAKE_CXX_FLAGS "-Wall -Wextra -O3")
+# set(CMAKE_CXX_COMPILER /usr/bin/g++)
+# set(CMAKE_CXX_STANDARD 17)
+# set(CMAKE_INTERPROCEDURAL_OPTIMIZATION TRUE)
+# set(CMAKE_CXX_FLAGS "-Wall -Wextra -O3")
 
 # PROJECT
 project(monilogger CXX)
